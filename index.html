@@ -1,0 +1,372 @@
+<html>
+    <body>
+        <img src="PYTHON.png">
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KİŞİSEL WEB SİTE</title>
+    <link rel="stylesheet" href="style.css"> <!-- Harici CSS dosyasını bağlama -->
+    <style>
+
+        /* CSS Stilleri */
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #D2691E;
+            color: #000000;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #F0E68C;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .highlight {
+            background-color: #ff5100f6;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        /* İletişim Formu Stilleri */
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Gece Modu için CSS stilini tanımla */
+        .dark-mode {
+            background-color: #222; /* Gece modunda arka plan rengi */
+            color: #000000; /* Gece modunda metin rengi */
+        }
+        
+        /* Yorum ve İnceleme Bölümü Stilleri */
+        #yorumlar {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .yorum {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .yorum h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .yorum p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .yorum-ekle {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 1rem;
+        }
+
+        .yorum-ekle h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .yorum-ekle form {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KUDRET TA. YAZILIM VE BİLİŞİM</h1>
+        <nav>
+            <ul>
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#vizyonumuz">Vizyonumuz</a></li>
+                <li><a href="#misyonumuz">Misyonumuz</a></li>
+                <li><a href="#hizmetlerimiz">Hizmetlerimiz</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+                <!-- Gece Modu düğmesi ekleyin -->
+                <li><button onclick="toggleDarkMode()">GECE MODU</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa">
+            <h2 class="highlight">Anasayfa</h2>
+            <p>Merhaba web sitemize hoş geldiniz ! web sitemizde bizim hakkımızda herşey bulunmaktadır aklınıza takılan soruları iletişim kısmından sorabilirsiniz ayrıca yorumlara bakabilirsiniz</p>
+        </section>
+
+        <section id="hakkimizda">
+            <h2 class="highlight">Hakkımızda</h2>
+            <p>Merhaba Ben KUDRET T 12 Yaşımdan Beri Yazılım Ve Bilişim Teknolojileri Üzerine Çalışıyorum Ayrıca Bir Çok Projeye Katıldım Ve Farklı Farklı Görevler Aldım.</p>
+        
+        <ul>
+            <li>
+                TEKNOFEST ENGELSİZ YAŞAM TEKNOLOJİLERİ TAKIMI İLETİŞİM SORUMLUSU VE TAKIM KAPTANI .
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                WEB SİTE VE ANDROİD UYGULAMA GELİŞTİRME .
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                ARDUNİO ÜRÜN GELİŞTİRME .
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                BİLGİSAYAR İŞLETMENLİĞİ .
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+            OTOMASYON SİSTEMLERİ KURULUMU VE EDİTÖRLÜĞÜ .
+            </li>
+        </ul>
+        </section>
+
+        <section id="vizyonumuz">
+            <h2 class="highlight">Vizyonumuz</h2>
+            <p>İşletmelerin çevrimiçi olarak başarılı olmalarına yardımcı olmak için çalışıyoruz. Web sitelerinizin, e-ticaret sitelerinizin ve en önemlisi firmanızın en iyi şekilde olmasını sağlıyor hayatınız kolaylaştırmaya  devam ediyoruz.</p>
+        </section>
+          
+          <section id="misyonumuz">
+            <h2 class="highlight">Misyonumuz</h2>
+            <p>Müşterilerimizin ihtiyaçlarını karşılayacak yüksek kaliteli hizmetler sunuyoruz . </p>
+        </section>
+    
+          <section id="hizmetlerimiz">
+            <h2 class="highlight">Hizmetlerimiz</h2>
+            <ul>
+                <li>
+                  <h2>Web Tasarım</h2>
+                  <p>
+                    Müşterilerimizin İhtiyaçlarına Uygun Web Siteleri Tasarlıyoruz.
+                  </p>
+                </li>
+            
+                <li>
+                  <h2>MOBİL UYGULAMA</h2>
+                  <p>
+                    Müşterilerimizin Kendilerine Özgü Mobil Uygulama Tasarlıyoruz.
+                  </p>
+                </li>
+            
+                <li>
+                  <h2>VİDEO FOTOGRAF EDİTÖRÜ</h2>
+                  <p>
+                    Müşterilerimizin Çekmiş Oldukları Videoların Fotografların Editörlüğünü Yapıyor Anılarınızın Unutulmaz Olmasına Yardımcı Oluyoruz.
+                  </p>
+                </li>
+            
+                <li>
+                  <h2>Otomasyon Sistemleri Kurulumu Ve Editörlüğü</h2>
+                  <p>
+                    Müşterilerimizin Firmalarına Veya Kişisel Kullanımlarına Özgü Otomasyon Sistemi Yapmakta Veya Hazır Olan Sİstemleri Kurmaktayız.
+                </p>
+                  <p>Restoran Ve Marketlere SATIŞ-ALIŞ-STOK Takip Otomasyonu</p><p>
+                  </p><p>Restoran-Marketler İçin SKT(Son Kullanma Tarihi) Otomasyonu</p>
+                  <p>Okullar İçin Kütüphane KİTAP ÖDÜNÇ VER-AL - SAY KİM NE KADAR OKUDU Gibi Vb Otomasyon Sistemleri</p><p>
+                </p>
+                </li>
+            
+                <li>
+                  <h2>TASARIM</h2>
+                  <p>
+                    Müşterilerimizin İster Projelerinde İster Kendi Hizmetlerinde Kullanabilecekleri Tasarımlar Yapmaktayız.
+                  </p><p>
+                  </p><p>LOGO</p><p>
+                  </p><p>AFİŞ</p>
+                  <p>BANNER</p><p>
+                  </p>
+                </li>
+              </ul>        
+    
+
+        </section>
+
+        <!-- Yorum ve İnceleme Bölümü Ekleniyor -->
+        <section id="yorumlar">
+            <h2 class="highlight">Yorumlar ve İncelemeler</h2>
+            <div class="yorum">
+                <h3>ALPARSLAN U</h3>
+                <p>mükemel site.</p>
+            </div>
+            <div class="yorum">
+                <h3>POYRAZ A</h3>
+                <p>sipariş çok hızlı teslim edildi.</p>
+            </div>
+            <div class="yorum">
+                <h3>MİNE G</h3>
+                <p>istediğim gibi oldu mükemmel.</p>
+            </div>
+            <div class="yorum">
+                <h3>EMRE K</h3>
+                <p>2.sipariş için para biriktirmeye başladım hahaahah.</p>
+            </div>
+            <div class="yorum">
+                <h3>ECE M</h3>
+                <p>teşekkürler.</p>
+            </div>
+            <!-- Daha fazla yorum eklemek için aynı yapıyı kopyalayabilirsiniz -->
+        </section>
+
+        <!-- Kullanıcı Yorum Ekleme Formu -->
+        <section class="yorum-ekle">
+            <h3 class="highlight">Yorumunuzu Ekleyin</h3>
+            <h1>YORUMLARINIZI BEKLİYORUZ !</h1>
+            <form id="yorum-ekle-form">
+                <label for="yorum-adsoyad">Adınız Soyadınız:</label>
+                <input type="text" id="yorum-adsoyad" name="adsoyad" required minlength="2">
+
+                <label for="yorum-mesaj">Yorumunuz:</label>
+                <textarea id="yorum-mesaj" name="yorum" rows="4" required></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer içeriği burada -->
+    </footer>
+
+    <!-- JavaScript kodunu ekleyin -->
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode'); // Gece modunu açma veya kapatma
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const yorumEkleForm = document.getElementById("yorum-ekle-form");
+            const yorumlarBolumu = document.getElementById("yorumlar");
+
+            yorumEkleForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const adSoyad = document.getElementById("yorum-adsoyad").value;
+                const yorumMesaj = document.getElementById("yorum-mesaj").value;
+
+                // Yorumu dinamik olarak oluşturun ve ekleyin
+                const yeniYorum = document.createElement("div");
+                yeniYorum.classList.add("yorum");
+
+                const yorumBaslik = document.createElement("h3");
+                yorumBaslik.textContent = adSoyad;
+
+                const yorumMetni = document.createElement("p");
+                yorumMetni.textContent = yorumMesaj;
+
+                yeniYorum.appendChild(yorumBaslik);
+                yeniYorum.appendChild(yorumMetni);
+
+                yorumlarBolumu.appendChild(yeniYorum);
+
+                // Formu temizleyin
+                yorumEkleForm.reset();
+            });
+        });
+    </script>
+    
+    <section id="iletisim">
+        <h2 class="highlight">İletişim</h2>
+        <h2>SİZ FORMU DOLDURUN BİZ SİZE ULAŞALIM !</h2>
+        
+            
+     <iframe src="https://forms.gle/dCUC65WhaQVjLog48" width="100%" height="1200"></iframe>
+            
+            
+        
+    </section>
+
+</body>
+</html>
